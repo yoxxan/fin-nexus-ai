@@ -29,7 +29,7 @@
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/yoxxan/fluffy-chainsaw.git fin-nexus-ai
+git clone https://github.com/yoxxan/fin-nexus-ai.git
 cd fin-nexus-ai
 ```
 
