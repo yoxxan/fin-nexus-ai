@@ -1,0 +1,26 @@
+{
+  "model_type": "GradientBoostingClassifier (XGBoost alternative)",
+  "roc_auc": 0.6788,
+  "features": [
+    "recharge_frequency_per_month",
+    "avg_recharge_amount_usd",
+    "recharge_regularity_index",
+    "utility_bill_ontime_ratio",
+    "mobile_wallet_in_out_ratio",
+    "sim_card_tenure_months",
+    "emergency_airtime_loan_cleared_pct",
+    "nighttime_activity_ratio"
+  ],
+  "feature_importance": {
+    "recharge_frequency_per_month": 0.0352,
+    "avg_recharge_amount_usd": 0.1014,
+    "recharge_regularity_index": 0.1831,
+    "utility_bill_ontime_ratio": 0.2107,
+    "mobile_wallet_in_out_ratio": 0.1048,
+    "sim_card_tenure_months": 0.1002,
+    "emergency_airtime_loan_cleared_pct": 0.1428,
+    "nighttime_activity_ratio": 0.1218
+  },
+  "min_score": 300,
+  "max_score": 900
+}
